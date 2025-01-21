@@ -1,0 +1,12 @@
+{
+  "name": "assignment3",
+  "version": "1.0.0",
+  "description": "Assignment3 :Switch Case ",
+  "license": "ISC",
+  "author": "\"M.Abdullah Tanveer | abdullahdev804@gmail.com | GitHub: AbdullahTanveer804\"",
+  "type": "commonjs",
+  "main": "index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  }
+}
