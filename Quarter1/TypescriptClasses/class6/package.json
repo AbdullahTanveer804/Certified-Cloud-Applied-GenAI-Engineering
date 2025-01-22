@@ -1,0 +1,12 @@
+{
+  "name": "class6",
+  "version": "1.0.0",
+  "description": "Class6: Array & Loops",
+  "license": "ISC",
+  "author": "M.Abdullah Tanveer | GitHub: AbdullahTanveer804 | abdullahdev804@gmail.com",
+  "type": "module",
+  "main": "index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  }
+}
