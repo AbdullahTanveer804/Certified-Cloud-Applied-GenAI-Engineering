@@ -138,3 +138,65 @@ const main = () => {
 };
 
 main();
+
+// Loops and Iterators
+
+// For loop - Traditional for loop
+for (let i = 0; i < 5; i++) {
+    console.log(i);
+}
+
+// Nested for loop - Nested for loop
+for (let i = 0; i < 3; i++) {
+    for (let j = 0; j < 3; j++) {
+        console.log(i, j);
+    }
+}
+
+// for...of loop
+const fruitsArray = ["Banana", "Orange", "Apple"];
+for (const fruit of fruitsArray) {
+    console.log(fruit);
+}
+
+// for...in loop
+const person :any = { name: "John", age: 30 };
+for (const key in person) {
+    console.log(key, person[key]);
+}
+
+// While loop - While loop with condition
+let j = 0;
+while (j < 5) {
+    console.log(j);
+    j++;
+}
+
+// nested while loop - Nested while loop
+let i = 0;
+while (i < 3) {
+    let j = 0;
+    while (j < 3) {
+        console.log(i, j);
+        j++;
+    }
+    i++;
+}
+
+// Do...While loop - Do...While loop with condition
+let k = 0;
+do {
+    console.log(k);
+    k++;
+} while (k < 5);
+
+// nested do...while loop - Nested Do...While loop
+let l = 0;
+do {
+    let m = 0;
+    do {
+        console.log(l, m);
+        m++;
+    } while (m < 3);
+    l++;
+} while (l < 3);
