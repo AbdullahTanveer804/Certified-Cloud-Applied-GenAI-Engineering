@@ -150,3 +150,48 @@ const celsiusToFahrenheit = (arrayTemp: number[]): void => {
     console.log("newArrayOfFahrenheit", newArray);
 };
 celsiusToFahrenheit([100, 200, 300, 400]);
+
+
+
+
+// Write a program that uses filter to remove all negative numbers from an array of numbers
+const arr1: number[] = [1, 3, -2, -9, -5, 4, 6];
+const afterRemoving = arr1.filter((val: number) => val >= 0);
+console.log("After removing negative numbers:", afterRemoving);
+
+// Given an array of numbers [1, 2, 3, 4, 5], use the map method to create a new array 
+// where each number is multiplied by 2.
+const arr2: number[] = [1, 2, 3, 4, 5];
+const multipliedBy2 = arr2.map((val: number) => val * 2);
+console.log('After multiplied by 2:', multipliedBy2);
+
+// Given an array of strings ["apple", "banana", "cherry", "date", "grape"], use the 
+// filter method to create a new array containing only the fruits with more than 5 characters.
+const arr3: string[] = ["apple", "banana", "cherry", "date", "grape"];
+const filtering = arr3.filter((val: string) => val.length > 5);
+console.log('After filtering array:', filtering);
+
+// Given an array of numbers [1, 2, 3, 4, 5, 6, 7, 8, 9, 10], use the map and filter methods 
+// together to create a new array containing the squares of even numbers.
+const arr4: number[] = [1, 2, 3, 4, 5, 6, 7, 8, 9, 10];
+const filteringA = arr4.filter((val: number) => val % 2 === 0);
+const squares = filteringA.map((val: number) => val * val);
+console.log('Even numbers in the array:', filteringA);
+console.log('Square of even numbers in the array:', squares);
+
+// Given an array of temperatures in Celsius [0, 10, 20, 30, 40], use the map method to create 
+// a new array where each temperature is converted to Fahrenheit using the formula (Celsius * 9/5) + 32.
+const arr5: number[] = [0, 10, 20, 30, 40];
+const fahrenheit = arr5.map((val: number) => (val * 9 / 5) + 32);
+console.log('Celsius in Fahrenheit:', fahrenheit);
+
+// Given an array of numbers [3, 6, 9, 12, 15, 18], use the map and filter methods together
+// to create a new array containing the doubled values of odd numbers.
+const arr6: number[] = [3, 6, 9, 12, 15, 18];
+const doubledVal = arr6.filter((val: number) => val % 2 !== 0).map((val: number) => val * 2);
+console.log('Doubled values of odd numbers:', doubledVal);
+
+// Given an array of names ["Alice", "Bob", "Charlie", "David", "Emily"], use the forEach method
+// to log each name with an exclamation mark at the end, e.g., "Alice!".
+const arr7: string[] = ["Alice", "Bob", "Charlie", "David", "Emily"];
+arr7.forEach((val: string) => console.log(val + '!'));
