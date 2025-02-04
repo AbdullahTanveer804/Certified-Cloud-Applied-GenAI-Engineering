@@ -13,6 +13,7 @@ def shorten(lst):
         itemToBeRemoved = lst.pop()    
         print(itemToBeRemoved)
     print(lst)
+    
 def getList():
     lst = []
     userInput = input("Enter element to add to the list or enter empty value to stop: ")
