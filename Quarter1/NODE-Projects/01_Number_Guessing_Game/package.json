@@ -1,0 +1,24 @@
+{
+  "name": "abdullahdev804-number-guessing-game",
+  "version": "1.0.0",
+  "description": "A simple number guessing program using Typescript, Node.js, Inquirer & chalk",
+  "license": "ISC",
+  "author": "Muhammad Abdullah Tanveer | abdullahdev804@gamil.com",
+  "type": "module",
+  "main": "index.js",
+  "bin": "index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "dependencies": {
+    "chalk": "^5.4.1",
+    "chalk-animation": "^2.0.3",
+    "inquirer": "^12.5.2"
+  },
+  "devDependencies": {
+    "@types/chalk": "^0.4.31",
+    "@types/chalk-animation": "^1.6.3",
+    "@types/inquirer": "^9.0.7",
+    "@types/node": "^22.14.0"
+  }
+}
