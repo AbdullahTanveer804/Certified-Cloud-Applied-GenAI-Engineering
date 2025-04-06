@@ -1,6 +1,6 @@
 {
   "name": "abdullahdev804-simple-calculator",
-  "version": "1.0.0",
+  "version": "1.1.1",
   "description": "A simple calculator using Typescript, Node.js, Inquirer & Chalk",
   "license": "ISC",
   "author": "Muhammad Abdullah Tanveer | abdullahdev804@gmail.com",
